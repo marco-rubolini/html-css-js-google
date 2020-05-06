@@ -42,7 +42,6 @@ header {
 }
 
 #header-left li, #header-right li {
-    /* display: inline-block; */
     padding-left: 10px;
 }
 
@@ -51,7 +50,6 @@ header {
 }
 
 #header-left li a, #header-right li a, #privacy-right a {
-    /* text-decoration: none; */
     font-size: 13px;
     line-height: 30px;
 }
@@ -133,10 +131,6 @@ input:focus {
 #search-cta a {
     text-decoration: none;
     margin: 0 30px;
-    /* background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    padding: 0 16px;
-    color: #5F6368; */
 }
 
 .btn-grey {
