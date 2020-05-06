@@ -1,3 +1,3 @@
 $('.fa-th').click(function(){
-    $('.nav').toggle();
+    $('.dropdown').toggleClass('hidden');
 })
