@@ -5,6 +5,7 @@
         <title>Google homepage</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/2a6dddd505.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
@@ -17,15 +18,118 @@
                 </div>
                 <div id="header-right">
                     <ul>
-                        <li><a href="#">Gmail</a></li>
-                        <li><a href="#">Immagini</a></li>
-                        <li><a href="#"><i class="fas fa-th"></i></a></li>
-                        <li><a class="btn" href="#">Accedi</a></li>
+                        <li>
+                            <a href="#">
+                                Gmail
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Immagini
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-th"></i>
+                            </a>
+                            <ul class="dropdown nav">
+                                <li>
+                                    <a href="#">
+                                        <img src="account.png" alt="">
+                                        Account
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="ricerca.png" alt="">
+                                        Ricerca
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="maps.png" alt="">
+                                        Maps
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="youtube.png" alt="">
+                                        Youtube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="play.png" alt="">
+                                        Play
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="news.png" alt="">
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="gmail.png" alt="">
+                                        Gmail
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="contatti.png" alt="">
+                                        Contatti
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="drive.png" alt="">
+                                        Drive
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="calendar.png" alt="">
+                                        Calendar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="traduttore.png" alt="">
+                                        Traduttore
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="foto.png" alt="">
+                                        Foto
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="duo.png" alt="">
+                                        Duo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="shopping.png" alt="">
+                                        Shopping
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="btn" href="#">
+                                Accedi
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </header>
-        <section>
+        <main>
             <div class="container">
                 <div id="logo">
                     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo-google">
@@ -52,6 +156,61 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </main>
+        <footer class="clearfix">
+            <div id="privacy">
+                <div class="container-fluid">
+                    <div class="privacy-left">
+                        <img src="privacy.png" alt="">
+                        <span id="title-privacy">Promemoria sulla privacy di Google</span>
+                    </div>
+                    <div class="privacy-right">
+                        <a href="#">
+                            <button class="btn2 uppercase" type="button" name="button">Ricordamelo piu tardi</button>
+                        </a>
+                        <a href="#">
+                            <button class="btn3 uppercase" type="button" name="button">
+                                leggi ora
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="top-footer">
+                    <div class="country">
+                        <span>Italia</span>
+                    </div>
+                </div>
+                <div class="bottom-footer clearfix">
+                        <div class="bottom-footer-left">
+                            <ul>
+                                <li>
+                                    <a href="#">Pubblicità</a>
+                                </li>
+                                <li>
+                                    <a href="#">Soluzioni aziendali</a>
+                                </li>
+                                <li>
+                                    <a href="#">Come funziona la Ricerca</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-footer-right">
+                            <ul>
+                                <li>
+                                    <a href="#">Privacy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termini</a>
+                                </li>
+                                <li>
+                                    <a href="#">Impostazioni</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+        <script src="main.js" charset="utf-8"></script>
     </body>
 </html>
